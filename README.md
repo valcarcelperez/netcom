@@ -1,8 +1,12 @@
 # netcom
-New place for "TCP/IP Communication Framework" from https://cftcpip.codeplex.com/
-Moved from CodePlex.
+(Moved from CodePlex)
 
-Legacy library for TCP/IP. Last updated in 2013. https://archive.codeplex.com/?p=cftcpip
+New place for "TCP/IP Communication Framework" from https://cftcpip.codeplex.com/
+
+https://archive.codeplex.com/?p=cftcpip
+
+Legacy library for TCP/IP. Last updated in 2013. 
+Deployed to Nuget https://www.nuget.org/packages/TcpIpCommunicationFramework/
 
 ## Original Readme
 ---
