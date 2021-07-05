@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>TcpIpCommunicationFramework</id>
+        <version>1.0.0</version>
+        <title>TCP/IP Communication Framework</title>
+        <authors>Ernesto Valcarcel</authors>
+        <licenseUrl>https://cftcpip.codeplex.com/license</licenseUrl>
+        <projectUrl>https://cftcpip.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>﻿﻿﻿﻿TCP/IP Communication Framework (TCP/IP CF) is a library that wraps the .NET Socket class and defines several classes for developing communication applications that use TCP/IP. TCP/IP CF defines asynchronous operations and is designed to be used in small applications that communicate with a few devices or server applications that maintain communication with a large number of devices.</description>
+        <summary>﻿﻿﻿﻿TCP/IP Communication Framework (TCP/IP CF) is a library that wraps the .NET Socket class and defines several classes for developing communication applications that use TCP/IP. TCP/IP CF defines as</summary>
+        <tags>TCP/IP, Network Programming, Client Server Communication</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Data" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="lib\net45\TCPIP.CommunicationFramework.Common.dll" target="lib\net45\TCPIP.CommunicationFramework.Common.dll" />
+        <file src="lib\net45\TCPIP.CommunicationFramework.dll" target="lib\net45\TCPIP.CommunicationFramework.dll" />
+    </files>
+</package>

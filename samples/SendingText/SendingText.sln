@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{CF7BC808-01E1-4A65-9960-719AC07069D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationFramework", "..\..\src\CommunicationFramework\CommunicationFramework.csproj", "{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\..\src\Common\Common.csproj", "{44FB1FE0-1AAA-414C-9483-ECC0D144289B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendingText.Common", "SendingText.Common\SendingText.Common.csproj", "{0528222E-1BC8-4722-9C49-C7C4823D31A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{A3CCDB78-C1F3-4899-AB29-068F0F79E453}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Server\\Server.csproj
+		SccProjectName1 = Server
+		SccLocalPath1 = Server
+		SccProjectUniqueName2 = ..\\..\\src\\CommunicationFramework\\CommunicationFramework.csproj
+		SccProjectName2 = ../../src/CommunicationFramework
+		SccLocalPath2 = ..\\..\\src\\CommunicationFramework
+		SccProjectUniqueName3 = ..\\..\\src\\Common\\Common.csproj
+		SccProjectName3 = ../../src/Common
+		SccLocalPath3 = ..\\..\\src\\Common
+		SccProjectUniqueName4 = SendingText.Common\\SendingText.Common.csproj
+		SccProjectName4 = SendingText.Common
+		SccLocalPath4 = SendingText.Common
+		SccProjectUniqueName5 = Client\\Client.csproj
+		SccProjectName5 = Client
+		SccLocalPath5 = Client
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF7BC808-01E1-4A65-9960-719AC07069D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7BC808-01E1-4A65-9960-719AC07069D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7BC808-01E1-4A65-9960-719AC07069D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7BC808-01E1-4A65-9960-719AC07069D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0528222E-1BC8-4722-9C49-C7C4823D31A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0528222E-1BC8-4722-9C49-C7C4823D31A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0528222E-1BC8-4722-9C49-C7C4823D31A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0528222E-1BC8-4722-9C49-C7C4823D31A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CCDB78-C1F3-4899-AB29-068F0F79E453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CCDB78-C1F3-4899-AB29-068F0F79E453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CCDB78-C1F3-4899-AB29-068F0F79E453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CCDB78-C1F3-4899-AB29-068F0F79E453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

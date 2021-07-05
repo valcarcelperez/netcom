@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureGenerator", "TemperatureGenerator\TemperatureGenerator.csproj", "{C7D3979B-FEA7-41A6-A1D8-4D1E193343A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{E9DE4A0E-884D-4CA7-A5D5-2B058B4A1DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationFramework", "..\..\src\CommunicationFramework\CommunicationFramework.csproj", "{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\..\src\Common\Common.csproj", "{44FB1FE0-1AAA-414C-9483-ECC0D144289B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureClientServerCommon", "TemperatureClientServerCommon\TemperatureClientServerCommon.csproj", "{28ABB8E4-1D49-4232-ABEB-6B07C708E518}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
+		SccProjectUniqueName0 = ..\\..\\src\\CommunicationFramework\\CommunicationFramework.csproj
+		SccProjectName0 = ../../src/CommunicationFramework
+		SccLocalPath0 = ..\\..\\src\\CommunicationFramework
+		SccProjectUniqueName1 = ..\\..\\src\\Common\\Common.csproj
+		SccProjectName1 = ../../src/Common
+		SccLocalPath1 = ..\\..\\src\\Common
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = TemperatureGenerator\\TemperatureGenerator.csproj
+		SccProjectName3 = TemperatureGenerator
+		SccLocalPath3 = TemperatureGenerator
+		SccProjectUniqueName4 = Server\\Server.csproj
+		SccProjectName4 = Server
+		SccLocalPath4 = Server
+		SccProjectUniqueName5 = TemperatureClientServerCommon\\TemperatureClientServerCommon.csproj
+		SccProjectName5 = TemperatureClientServerCommon
+		SccLocalPath5 = TemperatureClientServerCommon
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7D3979B-FEA7-41A6-A1D8-4D1E193343A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D3979B-FEA7-41A6-A1D8-4D1E193343A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D3979B-FEA7-41A6-A1D8-4D1E193343A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D3979B-FEA7-41A6-A1D8-4D1E193343A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DE4A0E-884D-4CA7-A5D5-2B058B4A1DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DE4A0E-884D-4CA7-A5D5-2B058B4A1DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DE4A0E-884D-4CA7-A5D5-2B058B4A1DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DE4A0E-884D-4CA7-A5D5-2B058B4A1DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28ABB8E4-1D49-4232-ABEB-6B07C708E518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28ABB8E4-1D49-4232-ABEB-6B07C708E518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28ABB8E4-1D49-4232-ABEB-6B07C708E518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28ABB8E4-1D49-4232-ABEB-6B07C708E518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

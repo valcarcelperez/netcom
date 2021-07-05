@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingSource", "PricingSource\PricingSource.csproj", "{EBF3BED0-ECA6-4FAC-AE76-7FFFC49977E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingMulticastCommon", "PricingMulticastCommon\PricingMulticastCommon.csproj", "{76CA6F6D-ECB2-4E96-B547-51C39D6E919C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\..\src\Common\Common.csproj", "{44FB1FE0-1AAA-414C-9483-ECC0D144289B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationFramework", "..\..\src\CommunicationFramework\CommunicationFramework.csproj", "{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingClient", "PricingClient\PricingClient.csproj", "{1FB434B7-E5F9-48DE-9AD7-835528E22743}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PricingSource\\PricingSource.csproj
+		SccProjectName1 = PricingSource
+		SccLocalPath1 = PricingSource
+		SccProjectUniqueName2 = PricingMulticastCommon\\PricingMulticastCommon.csproj
+		SccProjectName2 = PricingMulticastCommon
+		SccLocalPath2 = PricingMulticastCommon
+		SccProjectUniqueName3 = ..\\..\\src\\Common\\Common.csproj
+		SccProjectName3 = ../../src/Common
+		SccLocalPath3 = ..\\..\\src\\Common
+		SccProjectUniqueName4 = ..\\..\\src\\CommunicationFramework\\CommunicationFramework.csproj
+		SccProjectName4 = ../../src/CommunicationFramework
+		SccLocalPath4 = ..\\..\\src\\CommunicationFramework
+		SccProjectUniqueName5 = PricingClient\\PricingClient.csproj
+		SccProjectName5 = PricingClient
+		SccLocalPath5 = PricingClient
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBF3BED0-ECA6-4FAC-AE76-7FFFC49977E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF3BED0-ECA6-4FAC-AE76-7FFFC49977E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF3BED0-ECA6-4FAC-AE76-7FFFC49977E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF3BED0-ECA6-4FAC-AE76-7FFFC49977E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CA6F6D-ECB2-4E96-B547-51C39D6E919C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CA6F6D-ECB2-4E96-B547-51C39D6E919C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CA6F6D-ECB2-4E96-B547-51C39D6E919C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CA6F6D-ECB2-4E96-B547-51C39D6E919C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FB1FE0-1AAA-414C-9483-ECC0D144289B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B36E62-32B8-4AA2-8D8A-4D2188745F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB434B7-E5F9-48DE-9AD7-835528E22743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB434B7-E5F9-48DE-9AD7-835528E22743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB434B7-E5F9-48DE-9AD7-835528E22743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB434B7-E5F9-48DE-9AD7-835528E22743}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
